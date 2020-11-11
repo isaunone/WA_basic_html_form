@@ -72,10 +72,6 @@ form input, form textarea {
     width: 100%;
 }
 
-form label {
-    display: block;
-}
-
 form button {
     display: block;
     width: 80%;
