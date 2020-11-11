@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Basic HTML form</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact formulier</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">Over mij</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form name="contact-form" method="POST" data-netlify="true">
+                <div>
+                    <label for="name">Naam</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="message">Bericht</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Versturen</button>
+            </form>
+        </main>
+
+    </div>
+</body>
+</html>
